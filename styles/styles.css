@@ -1,0 +1,60 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ddddff
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+aside {
+    width: 30%;
+    float: right;
+    font-style: italic;
+    box-shadow: 5px 5px 8px #29627e;
+    height: 100%;
+    margin: 0 20px 0 0;
+}
+
+#quotes-locations {
+    width: 70%;
+    text-align: center;
+}
+
+img {
+    width: 150px;
+}
+
+.fishList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.fish-card { 
+    margin: 20px;
+    padding: 2em;
+    border: 1px solid black;
+    flex-basis: 25%;
+    background-color: #eeeeff;
+}
+
+.fish-card:hover {
+    background: #ffdddd;
+}
+
+#inspirational, #locations{
+    list-style: none;
+}
+
+.fish__name {
+    font-weight:bolder;
+}
+
+#protocols {
+    list-style: none;
+}
+
+.protocol {
+    margin-bottom: 10px;
+}

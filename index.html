@@ -6,8 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
     <title>Martin's Aquarium</title>
+    <script type="module" src="scripts/main.js"></script>
 </head>
 <body>
+    <h1>Martin's Aquarium</h1>
+    <main >
+        <aside>
+            <h3>Important protocols</h3>
+            <ul id="protocols"></ul>
+        </aside>
+        
+        <section id="fishlist">
+            <h3>List of currently owned fish</h3>    
+            <div id="main"></div>
+        </section>
+        <section id="quotes-locations">
+            <h3>Inspirational quotes</h3>
+            <ul id="inspirational">
+                <li>"If you fish and catch nothing, you have still caught a lesson"</li>
+            </ul>
+            <h3>List of harvest locations</h3>
+            <ul id="locations"></ul>
+        </section>
+        
+    </main>
+    
+    
+
     
 </body>
 </html>
+
+
+
+
+
+
+
+<!--  
+    1. Overview The visual components that make up the user interface are:
+        0. Multiple sections:
+            i. A list of currently owned fish
+            ii. A list of all the places that he's visited to collect fish
+        a. An aside explaining tank cleaning protocols, water salinity and temperature.
+        b. No navigation bar, yet.
+        c. Helpful quotes on the page ethat lists all of the out-of-the-way places Martin has visited. Right above the list of locations.
+        d. The details of the fish should include the image, species, length, his name for the fish, where it was harvested, and what it eats.
+
+    Data Design: 
+    1. The properties of each fish that will be represented in HTML are: the image, species, length, name of fish, where it was harvested, and what it eats.
+    2. The fish care tips to be mentioned are: Tank cleaning protocols, water salinity and temperature.
+    3. The properties of the locations that Martin has visited that he wants mentioned are: Travel tips for people who love to scuba and harvest fish. 
+
+    Style and Layout Design:
+    1. The class names for components:
+        a. Location for the container element for all locations, locations__header for the header, location for each individual card.
+        b. Fishes for the container element for all locations, fishes_header for the header, fish for each individual card.
+        c. Quotes for the container element for all quotes, quotes__header for the header, quote for each individual quote.
+        d. Protocols for the container element (aside) for all protocols, protocols__header for the header, protocol for each individual card.
+    2. The semantic tags that I will use:
+        a. header, aside, main, section, article.
+
+
+-->
+
+
